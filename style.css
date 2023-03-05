@@ -26,7 +26,7 @@ hr {
     --header-bg: linear-gradient(180deg, var(--header-light) 20%, var(--header-dark) 80%);
     --cart-detail-bg: linear-gradient(0deg, var(--header-light) 20%, var(--header-dark) 80%);
     --main-bg: linear-gradient(90deg, rgba(177, 209, 255, 0.5) 0%, #e0eafc00 50%, rgba(177, 209, 255, 0.5) 100%);
-    /* --aside-bg: black; */
+    --aside-bg: linear-gradient(90deg, #89f7fe 0%, #66a6ff 100%);
 }
 
 /*! |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -227,13 +227,14 @@ footer {
 
     .aside {
         position: fixed;
-        background-color: green;
+        background: var(--aside-bg);
         height: 60vh;
         width: 150px;
         top: 150px;
         left: -1000px;
         border-radius: 0 20px 50px 0;
         box-shadow: 0 0 10px black;
+        overflow: auto;
         transition: .5s;
         -webkit-transition: .5s;
         -moz-transition: .5s;
@@ -245,12 +246,30 @@ footer {
         -o-border-radius: 0 20px 50px 0;
     }
 
+    .aside-detail {
+        margin: 0 0 30px 0;
+    }
+
     .aside-detail>h3 {
         border-radius: 0 20px 0 0;
         -webkit-border-radius: 0 20px 0 0;
         -moz-border-radius: 0 20px 0 0;
         -ms-border-radius: 0 20px 0 0;
         -o-border-radius: 0 20px 0 0;
+    }
+
+    .aside-detail>div {
+        margin: 5px 0;
+    }
+
+    .aside-detail>div>a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+    }
+
+    .aside-detail>div>a:active {
+        color: blue;
     }
 
     .aside-arrow {
