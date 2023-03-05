@@ -27,6 +27,7 @@ hr {
     --cart-detail-bg: linear-gradient(0deg, var(--header-light) 20%, var(--header-dark) 80%);
     --main-bg: linear-gradient(90deg, rgba(177, 209, 255, 0.5) 0%, #e0eafc00 50%, rgba(177, 209, 255, 0.5) 100%);
     --aside-bg: linear-gradient(90deg, #89f7fe 0%, #66a6ff 100%);
+    --live-change-bg: black;
 }
 
 /*! |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -136,7 +137,8 @@ header>nav>ul>li>a {
 /*? main */
 main {
     display: flex;
-    background: var(--main-bg);
+    /* background: var(--main-bg); */
+    background-color: var(--live-change-bg);
     padding: 60px 0 0 0;
 }
 
