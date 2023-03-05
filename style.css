@@ -13,7 +13,7 @@ body {
 }
 
 hr {
-    border: 3px solid black;
+    border: 3px solid white;
 }
 
 /*? variable */
@@ -27,7 +27,7 @@ hr {
     --cart-detail-bg: linear-gradient(0deg, var(--header-light) 20%, var(--header-dark) 80%);
     --main-bg: linear-gradient(90deg, rgba(177, 209, 255, 0.5) 0%, #e0eafc00 50%, rgba(177, 209, 255, 0.5) 100%);
     --aside-bg: linear-gradient(90deg, #89f7fe 0%, #66a6ff 100%);
-    --live-change-bg: black;
+    --live-change-bg: rgb(30, 30, 30);
 }
 
 /*! |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -145,9 +145,10 @@ main {
 /* ? aside */
 .aside {
     position: sticky;
-    top: 5.8vw;
+    top: 4vw;
     width: 15vw;
-    height: 100%;
+    height: 100vh;
+    background: var(--aside-bg);
 }
 
 .aside-arrow {
@@ -162,6 +163,24 @@ main {
     background-color: white;
     margin: 0 0 10px 0;
     padding: 10px 0;
+}
+
+.aside-detail>div {
+    margin: 5px 0;
+}
+
+.aside-detail>div>a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.aside-detail>div>a:hover {
+    text-shadow: 0 0 2px black;
+}
+
+.aside-detail>div>a:active {
+    color: blue;
 }
 
 /*? Product */
@@ -277,10 +296,11 @@ footer {
     .aside-arrow {
         position: fixed;
         top: 100px;
-        left: -3px;
+        left: -1px;
         display: block;
-        font-size: 40px;
+        font-size: 50px;
         text-shadow: 0 0 5px black;
+        color: lightblue;
     }
 
     .aside-arrow:active {
