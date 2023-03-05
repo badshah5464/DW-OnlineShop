@@ -1,0 +1,19 @@
+Color-code : [
+    header color : light - #e0eafc , dark - b1d2ff
+]
+
+product key's : [
+    id:301,
+    title: ``,
+    img: '',
+    img2: '',
+    img3: '',
+    img4: '',
+    img5: '',
+    price:,
+    discount:,
+    qty: 1,
+    category: 't-shirt for women',
+]
+
+id:, title:``, img:``, img2:``, img3:``, img4:``, img5:``, price:, discount:, qty:1, category:`tshirt`,
