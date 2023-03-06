@@ -30,7 +30,9 @@ hr {
     --live-change-bg: rgb(30, 30, 30);
 
     /*! Font's  */
-    --logo-font: 'Ubuntu', sans-serif;
+    --logo-font: 'Rampart One', cursive;
+    --text-font: 'Rubik', sans-serif;
+    --a-font: 'Tilt Warp', cursive;
 }
 
 .type-btn {
@@ -89,6 +91,7 @@ header>nav>ul>li>a {
     color: black;
     font-weight: bold;
     text-decoration: none;
+    font-family: var(--a-font);
 }
 
 /*! cart */
@@ -177,12 +180,14 @@ main {
 
 .aside-detail {
     text-align: center;
+    font-family: var(--a-font);
 }
 
 .aside-detail>h3 {
     background-color: white;
     margin: 0 0 10px 0;
     padding: 10px 0;
+
 }
 
 .aside-detail>div {
@@ -232,6 +237,34 @@ main {
 .main-image>img {
     width: 12vw;
     height: 12vw;
+}
+
+.title {
+    margin: 5px 0;
+    font-family: var(--text-font);
+    font-size: 2.5vw;
+}
+
+.price>span:first-child {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+.price>span:nth-child(2) {
+    color: red;
+    font-weight: 600;
+}
+
+.price>span:last-child {
+    display: block;
+    margin: 0 5px;
+    color: gray;
+    text-decoration: line-through;
+}
+
+.cart-price {
+    font-weight: 600;
 }
 
 /*! |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  */
@@ -348,6 +381,10 @@ footer {
     header>nav>ul>li {
         padding: 0 0 0 10px;
     }
+
+    .title {
+        font-size: 3vw;
+    }
 }
 
 @media screen and (max-width:425px) {
@@ -370,5 +407,9 @@ footer {
 
     .logo>span {
         display: none;
+    }
+
+    .title {
+        font-size: 4vw;
     }
 }

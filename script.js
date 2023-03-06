@@ -693,8 +693,7 @@ function AddToCart(id) {
             </div>
             <div>
                 <p class="title">${c.title}</p>
-                <p class="price"><span>Price :</span><span>${Math.trunc(c.price / 100) * (100 - c.discount)}/-
-                </span></p>
+                <p class="cart-price"><span>Price :</span> <span>${Math.trunc(c.price / 100) * (100 - c.discount)}/-</span></p>
             </div>
             <div>
                 <button id="remove" class="type-btn">Remove Product</button>
