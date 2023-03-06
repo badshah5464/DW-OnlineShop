@@ -32,7 +32,7 @@ hr {
     /*! Font's  */
     --logo-font: 'Rampart One', cursive;
     --text-font: 'Rubik', sans-serif;
-    --a-font: 'Tilt Warp', cursive;
+    /* --a-font: 'Tilt Warp', cursive; */
 }
 
 .type-btn {
