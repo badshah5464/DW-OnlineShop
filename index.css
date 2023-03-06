@@ -4,3 +4,18 @@
     height: 50vh;
     background-color: red;
 }
+
+.service-order {
+    display: flex;
+}
+
+.service-icon>img {
+    background-color: white;
+    width: 5vw;
+    height: 5vh;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
