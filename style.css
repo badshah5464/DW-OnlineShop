@@ -242,7 +242,7 @@ main {
 .title {
     margin: 5px 0;
     font-family: var(--text-font);
-    font-size: 2.5vw;
+    font-size: 1.5vw;
 }
 
 .price>span:first-child {
@@ -289,6 +289,10 @@ footer {
 
     .cart-img>img {
         width: 20vw;
+    }
+
+    .title {
+        font-size: 2vw;
     }
 }
 
@@ -383,7 +387,7 @@ footer {
     }
 
     .title {
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
 }
 
