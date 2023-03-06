@@ -1,14 +1,24 @@
+.index-body {
+    background: var(--index-main-bg);
+}
+
+/*! |||||||||||||||||||||||||||||||||||||  */
+/** general use */
+
+/*! ||||||||||||||||||||||||||||||||||||||  */
+
 .index-main {
     margin: 64px 100px 0 100px;
     padding: 20px 0;
     height: 50vh;
 }
 
+/** add1 */
 .add1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .add1-title {
@@ -20,11 +30,16 @@
 .add1-title>h2 {
     font-size: 3vw;
     margin: 50px 0;
+    font-family: var(--heading-01);
 }
 
 .service-order {
     display: flex;
     margin: 50px 0;
+}
+
+.service-order>p {
+    font-family: var(--text-01);
 }
 
 .service-order>div {

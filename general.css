@@ -1,3 +1,25 @@
+/*? variable */
+:root {
+    /*! Color's */
+    --header-light: #e0eafc;
+    --header-dark: #b1d2ff;
+
+    /*! gradient's  */
+    --header-bg: linear-gradient(180deg, var(--header-light) 20%, var(--header-dark) 80%);
+    --cart-detail-bg: linear-gradient(0deg, var(--header-light) 20%, var(--header-dark) 80%);
+    --main-bg: linear-gradient(90deg, rgba(177, 209, 255, 0.5) 0%, #e0eafc00 50%, rgba(177, 209, 255, 0.5) 100%);
+    --aside-bg: linear-gradient(90deg, #89f7fe 0%, #66a6ff 100%);
+    --live-change-bg: rgb(30, 30, 30);
+    --index-main-bg: linear-gradient(180deg, #ffffff 0%, #f1f7ff 100%);
+
+    /*! Font's  */
+    --logo-font: 'Paytone One', sans-serif;
+    --text-font: 'Rubik', sans-serif;
+    --heading-01: 'Shantell Sans', cursive;
+    --text-01: 'Ubuntu', sans-serif;
+}
+
+/*! |||||||||||||||||||||||||||||||||||||| */
 .type-btn {
     color: red;
     margin: 10px 0;
