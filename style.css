@@ -28,12 +28,16 @@ hr {
     --main-bg: linear-gradient(90deg, rgba(177, 209, 255, 0.5) 0%, #e0eafc00 50%, rgba(177, 209, 255, 0.5) 100%);
     --aside-bg: linear-gradient(90deg, #89f7fe 0%, #66a6ff 100%);
     --live-change-bg: rgb(30, 30, 30);
+
+    /*! Font's  */
+    --logo-font: 'Ubuntu', sans-serif;
 }
 
 .type-btn {
     color: red;
     margin: 10px 0;
     padding: 3px 5px;
+    font-weight: 600;
 }
 
 /*! |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
@@ -60,6 +64,15 @@ header {
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
+}
+
+.logo>span {
+    font-family: var(--logo-font);
+    font-weight: 600;
+}
+
+.logo>span>span {
+    color: red;
 }
 
 header>nav>ul {
@@ -352,5 +365,9 @@ footer {
 
     header>nav>ul>li {
         padding: 0 0 0 25px;
+    }
+
+    .logo>span {
+        display: none;
     }
 }
