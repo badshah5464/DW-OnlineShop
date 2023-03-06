@@ -85,7 +85,7 @@ header {
 }
 
 /*! cart */
-.add-to-cart {
+.navigation-icon {
     display: flex;
     align-items: center;
 }
