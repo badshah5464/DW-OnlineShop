@@ -163,9 +163,8 @@ nav>ul>li {
 
 /*! ||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /*? main */
-main {
+.product-main {
     display: flex;
-    /* background: var(--main-bg); */
     background-color: var(--live-change-bg);
     padding: 60px 0 0 0;
 }
