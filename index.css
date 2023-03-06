@@ -2,20 +2,41 @@
     margin: 64px 100px 0 100px;
     padding: 20px 0;
     height: 50vh;
+}
+
+.add1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: red;
+}
+
+.add1-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add1-title>h2 {
+    font-size: 3vw;
+    margin: 50px 0;
 }
 
 .service-order {
     display: flex;
+    margin: 50px 0;
+}
+
+.service-order>div {
+    display: flex;
+    padding: 0 20px;
 }
 
 .service-icon>img {
-    background-color: white;
-    width: 5vw;
-    height: 5vh;
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    -o-border-radius: 100%;
+    width: 4vw;
+    margin: 0 10px;
+}
+
+.add1-img>img {
+    width: 40vw;
 }
