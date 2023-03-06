@@ -30,7 +30,7 @@ hr {
     --live-change-bg: rgb(30, 30, 30);
 
     /*! Font's  */
-    --logo-font: 'Rampart One', cursive;
+    --logo-font: 'Paytone One', sans-serif;
     --text-font: 'Rubik', sans-serif;
     /* --a-font: 'Tilt Warp', cursive; */
 }
@@ -74,13 +74,13 @@ header {
     -o-border-radius: 100%;
 }
 
-.logo>p>span {
+.logo>p {
     font-family: var(--logo-font);
     font-weight: 600;
     margin: 0 0 0 5px;
 }
 
-.logo>p>span>span {
+.logo>p>span {
     color: red;
 }
 
