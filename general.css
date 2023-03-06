@@ -4,7 +4,7 @@
     --header-light: #e0eafc;
     --header-dark: #b1d2ff;
     --text-lightBlack: rgb(40, 40, 40);
-    --theme-blue:rgb(70, 210, 255);
+    --theme-blue: #3399cc;
 
     /*! gradient's  */
     --header-bg: linear-gradient(180deg, var(--header-light) 20%, var(--header-dark) 80%);
